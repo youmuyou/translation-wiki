@@ -49,7 +49,9 @@
 重要提示:
 
 
-在 Apache 2.4 .htaccess和VirtualHost setting 有一些新的变化.你需要用Allow 替换Deny  在设置里面还有Require all granted 和 Require all denied 比如这样.
+在 Apache 2.4 .htaccess 和 VirtualHost setting 有一些新的变化.
+你需要用 Allow 替换 Deny  
+在设置里面还有 Require all granted 和 Require all denied 比如这样.
 
 从
 ```
