@@ -10,12 +10,12 @@
 
         $ gem install rake bundle
 
-4. 安装 Huginn需要的依赖文件
+4. 安装 Huginn 需要的依赖文件
 
         $ bundle install
 
 5. 安装 [MySQL](http://dev.mysql.com/downloads/)
-6. 启动MySQL 服务:
+6. 启动 MySQL 服务:
 
         $ mysql.server start
 
@@ -27,7 +27,7 @@
 
         $ rake secret
 
-7. 编辑 *.env*文件, 在 `APP_SECRET_TOKEN`里面填入刚才生成的TOKEN密匙.
+7. 编辑 *.env*文件, 在 `APP_SECRET_TOKEN`里面填入刚才生成的 TOKEN 密匙.
 8. 使用实例模板创建正式的 MySQL 数据库:
 
         $ rake db:create
